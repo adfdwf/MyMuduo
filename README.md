@@ -7,3 +7,6 @@ EventLoop 通过调用 Poller 来监听事件，并在事件发生时调用 Chan
 
 //回调函数的绑定(初始化)以及绑定的是谁(实际执行的是哪个函数)
 ![alt text](image-1.png)
+
+1.在根目录下创建build文件夹  cd build && cmake .. && make -j4  生成libmymuduo.so
+2.进入test文件夹，
